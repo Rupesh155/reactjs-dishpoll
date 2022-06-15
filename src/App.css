@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(231, 251, 250, 0.75);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: auto;
+  padding: 5%;
+}
+.card {
+  display: block;
+  width: 300px;
+  height: auto;
+  background-color: blue;
+  color: white;
+  padding: 50px;
+  font-size: 2.5rem;
+  margin: auto;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(116, 233, 229, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.card:nth-child(2) {
+  background-color: rgba(254, 146, 146, 0.75);
+}
+input {
+  border: 1px solid white;
+  width: 240px;
+  height: 30px;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+button {
+  width: 240px;
+  height: 40px;
+  margin: 10px auto;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(47, 244, 89, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.dish {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+h1 {
+  color: white;
+}
+p {
+  text-align: start;
+  padding: 10px;
+}
+.log-compo {
+  padding: 5%;
+}
+.login {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(96, 90, 250, 0.75);
+  border-radius: 24px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.start {
+}
+.itemCard {
+  width: 360px;
+  height: 500px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(236, 234, 234, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  margin: 10px auto;
+}
+.rank {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+.rank1 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  color: white;
+}
+.rank2 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+}
+.rank3 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  color: white;
+}
+.rank:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.buttonWrapper {
+  width: 200px;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
